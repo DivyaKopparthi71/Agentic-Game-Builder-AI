@@ -54,18 +54,18 @@ Folder Structure and Design Explanation
 agentic-game-builder/
 │
 ├── app/
-│   ├── main.py
-│   ├── clarifier.py
-│   ├── planner.py
-│   ├── generator.py
-│   ├── file_writer.py
-│   ├── groq_client.py
-│   ├── prompts.py
+   ├── main.py
+   ├── clarifier.py
+   ├── planner.py
+   ├── generator.py
+   ├── file_writer.py
+   ├── groq_client.py
+   ├── prompts.py
 │
 ├── output/
-├── Index.html
-├── game.js
-└── style.css
+   ├── Index.html
+   ├── game.js
+   └── style.css
 The project is divided into small modules.
 Each file has one responsibility.
 
@@ -231,6 +231,7 @@ Improved logging
 Enhanced error handling
 Persistent high score storage
 Stronger prompt guardrails
+
 
 
 
