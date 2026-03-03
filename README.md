@@ -22,11 +22,11 @@ Produce a structured internal plan
 Decide the framework (Vanilla JavaScript)
 Define core systems such as input handling, rendering, and game state logic
 Generate a playable game using:
-
+```text
 index.html
 style.css
 game.js
-
+```
 Automatically save runnable files that work locally in a browser
 This project is not a prompt-engineering exercise.
 It is a structured AI system designed with clear phases and responsibilities, packaged inside a Docker container for reproducibility and evaluation.
@@ -36,6 +36,7 @@ Think of this system as a small team of workers.
 Each worker has one clear job.
 
 The process works step by step:
+```text
 User Idea
   ↓
 Clarifier
@@ -47,6 +48,7 @@ Generator
 File Writer
   ↓
 Playable Game
+```
 Each step has a single responsibility.
 This makes the system organized, predictable, and reliable.
 
@@ -237,6 +239,7 @@ Improved logging
 Enhanced error handling
 Persistent high score storage
 Stronger prompt guardrails
+
 
 
 
