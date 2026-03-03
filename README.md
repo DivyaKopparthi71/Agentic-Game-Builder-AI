@@ -1,4 +1,4 @@
-# Agentic-Game-Builder-AI
+                                     Agentic Game-Builder AI
 
 This project implements an agentic AI system capable of designing and generating a small playable browser game (using HTML, CSS, and JavaScript) from an ambiguous natural-language input.
 The system does not simply generate code from a single prompt.
